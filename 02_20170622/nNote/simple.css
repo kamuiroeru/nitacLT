@@ -1,0 +1,45 @@
+/* スライド全体のフォントの種類、サイズ */
+.rise-enabled .reveal .slides
+{
+    font-size: 20px;
+    font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    font-family: "Ricty", monospace;
+    transform: none;
+    -webkit-transform: none;
+}
+
+/* 文字の色関係 */
+.rise-enabled .reveal .slides :-webkit-any(h1, h2, h3, h4, h5, h6, p, li),
+.rise-enabled .reveal .slides div.output_subarea>pre,
+.rise-enabled .reveal .slides #slide-5-3>div>div.widget-area>div.widget-subarea>div
+{
+    /* color: white; */
+}
+
+/* リンクハイライト */
+.rise-enabled .reveal .slides a
+{
+    /* color: yellow; */
+}
+
+/* スライド背景色 */
+.rise-enabled .reveal
+{
+    /* background-color: Navy; */
+    /* element-overrides */
+}
+
+/* In[] の色 */
+.rise-enabled .reveal .slides div.prompt.input_prompt
+{
+    /* color: #58FAF4; */
+}
+
+/* コードの背景色 表面色 フォントサイズ */
+.rise-enabled .reveal .slides code,
+.rise-enabled .reveal .slides pre>code
+{
+    /* background-color: transparent;
+    color: white; */
+    font-size: 60%;
+}
